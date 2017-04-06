@@ -64,7 +64,7 @@ table {
   background-color: #ffffff;
   width: 100px;
   height: 100vh;
-  padding: 37px;
+  padding: 30px;
   box-sizing: border-box; }
   #sidr-button #menu-logo {
     position: relative;
@@ -73,7 +73,7 @@ table {
   #sidr-button .fa-bars {
     text-align: center;
     position: relative;
-    width: 24px;
+    width: 40px;
     top: 45%;
     color: #d8d8d8; }
 

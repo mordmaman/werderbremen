@@ -64,7 +64,7 @@ table {
   background-color: #ffffff;
   width: 100px;
   height: 100vh;
-  padding: 30px;
+  padding: 37px;
   box-sizing: border-box; }
   #sidr-button #menu-logo {
     position: relative;
@@ -73,14 +73,26 @@ table {
   #sidr-button .fa-bars {
     text-align: center;
     position: relative;
-    width: 40px;
+    width: 24px;
     top: 45%;
     color: #d8d8d8; }
 
+/*------------------------------------*\
+  #Article
+\*------------------------------------*/
 .article {
   display: flex;
   flex: 1;
   height: 100vh;
   background-image: url("img/gnabry.jpg"); }
+
+.nav {
+  position: relative;
+  top: 40px;
+  display: flex;
+  width: 900px;
+  margin: auto;
+  height: 60px;
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */

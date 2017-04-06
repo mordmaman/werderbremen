@@ -86,10 +86,24 @@ table {
     }
 }
 
+/*------------------------------------*\
+  #Article
+\*------------------------------------*/
+
 .article {
     display: flex;
     flex: 1;
     height: 100vh;
     //background-color: #000000;
     background-image: url("img/gnabry.jpg");
+}
+
+.nav {
+    position: relative;
+    top: 40px;
+    display: flex;
+    width: 900px;
+    margin: auto;
+    height: 60px;
+    background-color: #ffffff;
 }

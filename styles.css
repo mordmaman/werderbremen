@@ -51,5 +51,11 @@ table {
 /*------------------------------------*\
   #CSS RESET
 \*------------------------------------*/
+#sidr {
+  display: inline-block;
+  width: 25px; }
+
+#sidr-button {
+  display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */

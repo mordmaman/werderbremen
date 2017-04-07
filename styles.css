@@ -109,7 +109,8 @@ table {
       font-size: 14px;
       letter-spacing: 2px;
       color: #7b7b7a;
-      transform: skew(40deg) !important; }
+      transform: skew(40deg) !important;
+      margin-right: 27px; }
       .navParent .navWhite ul li {
         margin: 0 18px; }
   .navParent .navOrange {

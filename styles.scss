@@ -95,24 +95,17 @@ table {
     flex: 1;
     height: 100vh;
     //background-color: #000000;
-    background-image: url("img/gnabry.jpg");
+    background: url("img/gnabry.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
 .navParent{
     margin: 0 auto;
+    display: flex;
+    
 }
 
-.nav {
-    position: relative;
-    top: 40px;
-    display: flex;
-    width: 551px;
-    margin: 0 auto;
-    height: 60px;
-    background-color: #ffffff;
-    border-bottom: 5px solid #ee7203;
-    transform: skew(-40deg);
-}
+
 
 .nav::after{
     position: relative;

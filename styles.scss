@@ -117,11 +117,22 @@ table {
        position: relative;
         top: 40px;
         display: flex;
+        align-items: center;
+        justify-content: center;
         width: 160px;
         margin: 0 auto;
         height: 60px;
         background-color: #ee7203;
         transform: skew(-40deg); 
+        p {
+            // text-align: center;
+            // margin: 0 auto;
+            font-family: 'Istok Web', sans-serif;
+            font-size: 14px;
+            letter-spacing: 1-x;
+            color: #ffffff;
+            transform: skew(40deg) !important;
+        }
     }
 }
 

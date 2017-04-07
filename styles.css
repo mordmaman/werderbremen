@@ -1,7 +1,7 @@
 /*------------------------------------*\
   #CSS RESET
 \*------------------------------------*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -95,22 +95,29 @@ table {
     top: 40px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 1102px;
     margin: 0 auto;
     height: 60px;
     background-color: #ffffff;
     border-bottom: 5px solid #ee7203;
     transform: skew(-40deg); }
+    .navParent .navWhite .strapline {
+      margin-left: 100px;
+      transform: skew(40deg) !important;
+      width: 160px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start; }
     .navParent .navWhite ul {
       display: flex;
       flex-direction: row;
       font-family: 'Istok Web', sans-serif;
+      margin-left: 280px;
       font-size: 14px;
       letter-spacing: 2px;
       color: #7b7b7a;
-      transform: skew(40deg) !important;
-      margin-right: 27px; }
+      transform: skew(40deg) !important; }
       .navParent .navWhite ul li {
         margin: 0 18px; }
   .navParent .navOrange {

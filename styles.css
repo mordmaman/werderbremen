@@ -114,7 +114,7 @@ table {
     .navParent .navOrange p {
       font-family: 'Istok Web', sans-serif;
       font-size: 14px;
-      letter-spacing: 1-x;
+      letter-spacing: 2px;
       color: #ffffff;
       transform: skew(40deg) !important; }
 

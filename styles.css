@@ -100,6 +100,12 @@ table {
     background-color: #ffffff;
     border-bottom: 5px solid #ee7203;
     transform: skew(-40deg); }
+    .navParent .navWhite ul li {
+      font-family: 'Istok Web', sans-serif;
+      font-size: 14px;
+      letter-spacing: 2px;
+      color: #7b7b7a;
+      transform: skew(40deg) !important; }
   .navParent .navOrange {
     position: relative;
     top: 40px;

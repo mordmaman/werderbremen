@@ -112,6 +112,13 @@ table {
         background-color: #ffffff;
         border-bottom: 5px solid #ee7203;
         transform: skew(-40deg);
+        ul li {
+            font-family: 'Istok Web', sans-serif;
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: #7b7b7a;
+            transform: skew(40deg) !important;
+        }
     }
     .navOrange{
        position: relative;
@@ -125,8 +132,6 @@ table {
         background-color: #ee7203;
         transform: skew(-40deg); 
         p {
-            // text-align: center;
-            // margin: 0 auto;
             font-family: 'Istok Web', sans-serif;
             font-size: 14px;
             letter-spacing: 2px;

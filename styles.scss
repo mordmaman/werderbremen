@@ -171,9 +171,11 @@ table {
 }
 
 .homePageText{
+    position: fixed;
+    top: 41%;
+    height: 100%;
     display: flex;
-    width: 100px;
-    height: 100px;
-    background-color: #000;
+    flex-direction: column;
+    padding-left: 146px;
 }
 

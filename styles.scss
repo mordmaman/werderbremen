@@ -132,8 +132,11 @@ table {
             letter-spacing: 2px;
             color: #7b7b7a;
             transform: skew(40deg) !important;
+            height: 100%;
+            line-height: 60px;
             li {
                 margin: 0 18px;
+                height: 100%;
             }
         }
     }
@@ -184,7 +187,7 @@ table {
       color: #ffffff;
     }
     h1{
-        padding-top: 64px;
+      padding-top: 48px;
       font-size: 65px;
       font-family: 'Istok Web', sans-serif;  
       font-weight: lighter;

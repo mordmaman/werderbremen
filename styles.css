@@ -119,9 +119,12 @@ table {
       font-size: 14px;
       letter-spacing: 2px;
       color: #7b7b7a;
-      transform: skew(40deg) !important; }
+      transform: skew(40deg) !important;
+      height: 100%;
+      line-height: 60px; }
       .navParent .navWhite ul li {
-        margin: 0 18px; }
+        margin: 0 18px;
+        height: 100%; }
   .navParent .navOrange {
     position: relative;
     top: 40px;
@@ -162,7 +165,7 @@ table {
     letter-spacing: 3px;
     color: #ffffff; }
   .homePageText h1 {
-    padding-top: 64px;
+    padding-top: 48px;
     font-size: 65px;
     font-family: 'Istok Web', sans-serif;
     font-weight: lighter;

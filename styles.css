@@ -172,4 +172,19 @@ table {
     letter-spacing: 3px;
     color: #ffffff; }
 
+.button {
+  margin-top: 40px;
+  width: 131px;
+  height: 41px;
+  background-color: #ee7203;
+  display: flex;
+  align-items: center;
+  padding-left: 20px; }
+  .button h3 {
+    font-size: 11px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #ffffff; }
+
 /*# sourceMappingURL=styles.css.map */

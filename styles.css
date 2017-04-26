@@ -155,5 +155,18 @@ table {
   display: flex;
   flex-direction: column;
   padding-left: 146px; }
+  .homePageText h2 {
+    font-size: 11px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #ffffff; }
+  .homePageText h1 {
+    padding-top: 64px;
+    font-size: 65px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */

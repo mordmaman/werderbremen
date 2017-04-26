@@ -95,7 +95,6 @@ table {
     flex: 1;
     flex-direction: column;
     height: 100vh;
-    //background-color: #000000;
     background: url("img/gnabry.jpg") no-repeat center center fixed;
     background-size: cover;
 }
@@ -177,5 +176,19 @@ table {
     display: flex;
     flex-direction: column;
     padding-left: 146px;
+    h2 {
+      font-size: 11px;
+      font-family: 'Istok Web', sans-serif;  
+      font-weight: 900;
+      letter-spacing: 3px;
+      color: #ffffff;
+    }
+    h1{
+        padding-top: 64px;
+      font-size: 65px;
+      font-family: 'Istok Web', sans-serif;  
+      font-weight: lighter;
+      letter-spacing: 3px;
+      color: #ffffff;
+    }
 }
-

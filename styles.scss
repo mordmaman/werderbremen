@@ -181,7 +181,7 @@ table {
     padding-left: 146px;
     h2 {
       font-size: 11px;
-      font-family: 'Istok Web', sans-serif;  
+      font-family: 'Istok Web', sans-serif;
       font-weight: 900;
       letter-spacing: 3px;
       color: #ffffff;
@@ -189,7 +189,7 @@ table {
     h1{
       padding-top: 48px;
       font-size: 65px;
-      font-family: 'Istok Web', sans-serif;  
+      font-family: 'Istok Web', sans-serif;
       font-weight: lighter;
       letter-spacing: 3px;
       color: #ffffff;
@@ -197,6 +197,7 @@ table {
 }
 
 .button {
+    position: relative;
     margin-top: 40px;
     width: 131px;
     height: 41px;
@@ -204,11 +205,22 @@ table {
     display: flex;
     align-items: center;
     padding-left: 20px;
+    z-index: 1;
     h3{
       font-size: 11px;
-      font-family: 'Istok Web', sans-serif;  
+      font-family: 'Istok Web', sans-serif;
       font-weight: 900;
       letter-spacing: 3px;
       color: #ffffff;
     }
 }
+
+.line {
+        position: relative;
+        width: 40px;
+        height: 1px;
+        background-color: #ffffff;
+        z-index: 2;
+        top: -22px;
+        left: 130px;
+    }

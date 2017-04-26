@@ -93,6 +93,7 @@ table {
 .article {
     display: flex;
     flex: 1;
+    flex-direction: column;
     height: 100vh;
     //background-color: #000000;
     background: url("img/gnabry.jpg") no-repeat center center fixed;
@@ -102,6 +103,7 @@ table {
 .navParent{
     margin: 0 auto;
     display: flex;
+    height: 100px;
     .navWhite {
         position: relative;
         top: 40px;
@@ -167,3 +169,11 @@ table {
     height: 60px;
     background-color: #ffffff;
 }
+
+.homePageText{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
+

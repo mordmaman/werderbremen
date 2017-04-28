@@ -224,3 +224,17 @@ table {
         top: -22px;
         left: 130px;
     }
+
+.sliderMenu {
+    position: fixed;
+    top: 91%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 146px;
+    img {
+        height: 5%;
+    }
+}
+
+//sass --watch styles.scss:styles.css
